@@ -1,0 +1,10 @@
+headers = hello.h
+headerFilter = hello.h
+language = Objective-C
+---
+
+#include <Foundation/Foundation.h>
+
+void sayHello() {
+  NSLog(@"hello Objective-C"); 
+}
