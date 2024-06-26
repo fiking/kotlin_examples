@@ -1,6 +1,10 @@
 #include <Foundation/Foundation.h>
 
 void sayHello();
+NSArray* printArray(NSArray *array);
+
+
+//void printInfo(Info *info);
 
 /*
 struct KK {

@@ -8,3 +8,21 @@ language = Objective-C
 void sayHello() {
   NSLog(@"hello Objective-C"); 
 }
+
+NSArray* printArray(NSArray *array) {
+  NSLog(@"%ld", array.count);
+  for (int i = 0; i < array.count; ++i) {
+    NSLog(@"%@", array[i]);
+  }
+
+  NSArray *ret = @[@1, @2, @3, @4, @5];
+  return ret;
+}
+
+/*
+void printInfo(Info *info) {
+  NSLog(@"%d", info.age);
+}
+*/
+
+

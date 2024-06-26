@@ -8,3 +8,15 @@ headerFilter = hello.h
 void sayHello() {
   printf("Hello Kotlin Native\n");
 }
+
+struct KK callstruct(struct KK k1) __attribute__((noinline)) {
+  struct KK k;
+  k.a = 2;
+  printf("%d\n", k.a);
+  return k;
+} 
+
+int *callint(int a, int b) __attribute__((noinline)) {
+  printf("%d, %d\n", a, b);
+  return &a;
+}
