@@ -1,0 +1,8 @@
+headers = call.h
+headerFilter = call.h
+language = Objective-C
+---
+
+NSArray *callee(NSArray *a) {
+  return a;
+}

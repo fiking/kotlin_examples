@@ -1,0 +1,9 @@
+headers = call.h
+headerFilter = call.h
+language = Objective-C
+---
+
+int callee(int a) {
+  return a;
+}
+
